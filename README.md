@@ -7,14 +7,16 @@ Make sure you have the following things installed:
 
 # PYGAME
 
-to install pygame type this into terminal or a command prompt for your OS:
+to install `pygame` type this into terminal or a command prompt for your OS:
 
 Windows:
 
-pip install pygame
+`pip install pygame`
 
 Mac:
 
-pip3 install pygame
+`pip3 install pygame`
 
+Linux: 
 
+`sudo pip install pygame`
