@@ -5,7 +5,7 @@ To run open the python IDLE and open the .py file, then hit F5.
 
 Make sure you have the following things installed:
 
-pygame
+# PYGAME
 
 to install pygame type this into terminal or a command prompt for your OS:
 
