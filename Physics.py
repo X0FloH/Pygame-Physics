@@ -119,10 +119,16 @@ while True:
                 if upperLevel == 0:
                     gravityCurrent = -40
     gameDisplay = pygame.display.set_mode((1000, 800), 0, 32)
-    if upperLevel == 0:
-        pygame.display.set_caption('Python Physics Platformer - Level ' + str(level))
+    if level < 5:
+        if upperLevel == 0:
+            pygame.display.set_caption('Python Physics - Tutorial Level ' + str(level))
+        else:
+            pygame.display.set_caption('Python Physics - Tutorial Level ' + str(level) + ' - Upper Level')
     else:
-        pygame.display.set_caption('Python Physics Platformer - Level ' + str(level) + ' - Upper Level')
+        if upperLevel == 0:
+            pygame.display.set_caption('Python Physics - Level ' + str(level))
+        else:
+            pygame.display.set_caption('Python Physics - Level ' + str(level) + ' - Upper Level')
     gameDisplay.fill(white)
     pygame.draw.rect(gameDisplay, red, (xpos, ypos, 50, 50))
     pygame.font.init()
